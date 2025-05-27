@@ -49,6 +49,12 @@ article {
   text-decoration: none;
 }
 
+.socialmedia img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
 .trade-winds-regular {
   font-family: "Trade Winds", system-ui;
   font-weight: 400;
