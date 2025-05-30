@@ -90,12 +90,12 @@ h1 {
 
 article {
   position: absolute;
-  top: 175px;
-  font-size: 18px;
+  top: 240px;
+  font-size: 20px;
   ;
 }
 
 .hero article img {
   float: right;
-  width: 200px;
+  width: 40%;
 }
