@@ -10,6 +10,21 @@
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 360px;
+  padding: 18px;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: right;
+  margin-right: 100px;
+  font-family: var(--heading-font);
+  font-size: 20px;
 }
 
 * {
@@ -24,12 +39,7 @@ body {
   background-color: var(--primary-color);
 }
 
-header,
-main,
-footer {
-  width: 840px;
-  margin: 0 auto;
-}
+
 
 h1,
 h2 {
@@ -92,10 +102,20 @@ article {
   position: absolute;
   top: 240px;
   font-size: 20px;
-  ;
 }
 
 .hero article img {
   float: right;
   width: 40%;
+}
+
+.history {
+  position: relative;
+  text-align: left;
+}
+
+.history img {
+  display: block;
+  width: 40%;
+  height: 400px;
 }
